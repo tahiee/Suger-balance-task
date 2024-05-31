@@ -10,7 +10,7 @@
   padding: 0px 30px;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 397px) {
   .sugerimg {
     max-width: 100%; /* Ensure the image takes up the full width of the container */
     left: 0 !important;
