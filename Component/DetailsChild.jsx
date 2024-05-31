@@ -1,5 +1,8 @@
 import React from "react";
 import fda from "../Images/fda.png";
+import gmp from "../Images/gmp.png";
+import usa from "../Images/usa.png";
+import nsf from "../Images/nsf.png";
 
 const DetailsChild = () => {
   return (
@@ -49,9 +52,9 @@ const DetailsChild = () => {
 
       <section className="certifications">
         <img src={fda} alt="FDA" />
-        <img src={fda} alt="GMP Certified" />
-        <img src={fda} alt="Made in USA" />
-        <img src={fda} alt="NSF" />
+        <img src={gmp} alt="GMP Certified" />
+        <img src={usa} alt="Made in USA" />
+        <img src={nsf} alt="NSF" />
       </section>
     </div>
   );
