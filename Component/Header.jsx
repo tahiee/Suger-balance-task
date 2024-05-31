@@ -1,6 +1,7 @@
 import React from "react";
 import img1 from "../Images/blood+sugar+balance-removebg-preview.png";
 import img2 from "../Images/globelfree.png";
+
 const Header = () => {
   return (
     <header>
@@ -19,8 +20,7 @@ const Header = () => {
               <h1>Sugar Balance</h1>
             </div>
             <div className="both-logo">
-              <div className="svg-container">
-                {/* SVG 1 */}
+              <div className="svg-container blink">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
